@@ -49,26 +49,7 @@ async function init() {
 
 init();
 
-// Function to load the appropriate CSS file based on the screen size
-function loadStylesheet() {
-  const link = document.createElement('link');
-  link.rel = 'stylesheet';
-  link.type = 'text/css';
-
-  if (window.innerWidth <= 768) {
-    // Load the mobile CSS
-    link.href = 'style-mobile.css';
-  } else {
-    // Load the desktop CSS
-    link.href = 'style-desktop.css';
-  }
-
-  document.head.appendChild(link);
-}
-
-// Event listeners to load the correct stylesheet on page load and window resize
-window.addEventListener('load', loadStylesheet);
-window.addEventListener('resize', loadStylesheet);
+// CSS files are now loaded directly in HTML for better performance
 document.getElementById("loginForm").addEventListener("submit", function(event) {
   event.preventDefault(); // Prevent default form submission
 
