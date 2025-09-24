@@ -13,7 +13,21 @@ A beautiful, responsive web application for discovering and exploring delicious 
 
 ## 🚀 Live Demo
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-green?style=for-the-badge)](https://your-repo-link.com)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-green?style=for-the-badge)](https://yourusername.github.io/RecipeBook)
+
+## 📸 Screenshots
+
+### Login Page
+![Login Page](screenshots/login-page.png)
+*Clean and modern login interface with Google/Apple sign-in options*
+
+### Recipe Discovery Page
+![Recipe Page](screenshots/recipe-page.png)
+*Main recipe display page showing random recipes with images and ingredients*
+
+### Mobile Responsive Design
+![Mobile View](screenshots/mobile-view.png)
+*Fully responsive design optimized for mobile devices*
 
 ## 📁 Project Structure
 
@@ -25,7 +39,9 @@ RecipeBook/
 │   ├── style-desktop.css     # Desktop-specific styles
 │   └── style-mobile.css      # Mobile-responsive styles
 ├── 📁 js/                     # JavaScript files
-│   └── script.js             # Main application logic
+│   ├── script.js             # Main application logic
+│   ├── config.example.js     # API configuration template
+│   └── config.js             # API configuration (ignored by git)
 ├── 📁 images/                 # Image assets
 │   ├── logo.png              # Main logo
 │   ├── log.png               # Login page logo
@@ -38,6 +54,10 @@ RecipeBook/
 ├── 📁 pages/                  # HTML pages
 │   ├── loginpage.html        # User authentication page
 │   └── intro.html            # Main recipe display page
+├── 📁 screenshots/            # Project screenshots
+│   ├── login-page.png        # Login page screenshot
+│   ├── recipe-page.png       # Recipe page screenshot
+│   └── mobile-view.png       # Mobile responsive screenshot
 ├── .gitignore                # Git ignore rules
 └── README.md                 # Project documentation
 ```
@@ -103,10 +123,16 @@ RecipeBook/
 The application uses the Spoonacular API for recipe data. To use your own API key:
 
 1. Get a free API key from [Spoonacular](https://spoonacular.com/food-api)
-2. Update the `API_KEY` constant in `js/script.js`:
-   ```javascript
-   const API_KEY = "your-api-key-here";
+2. Copy the configuration template:
+   ```bash
+   cp js/config.example.js js/config.js
    ```
+3. Edit `js/config.js` and replace `your-api-key-here` with your actual API key:
+   ```javascript
+   const API_KEY = "your-actual-api-key-here";
+   ```
+
+**Note:** The `config.js` file is ignored by git for security reasons. Only the template file `config.example.js` is committed to the repository.
 
 ### Customization
 

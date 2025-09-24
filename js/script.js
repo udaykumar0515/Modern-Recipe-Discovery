@@ -1,4 +1,4 @@
-const API_KEY = "92f0263949a74da9877e2fb48b92fbf9";
+// API key is now loaded from config.js
 const recipeListEl = document.getElementById("recipe-list");
 
 function displayRecipes(recipes) {

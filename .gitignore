@@ -94,6 +94,7 @@ temp/
 # API Keys and sensitive data
 config/api-keys.js
 secrets/
+js/config.js
 
 # Documentation files (optional - uncomment if you want to ignore them)
 # *.pdf
