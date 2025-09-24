@@ -1,0 +1,216 @@
+@media only screen and (max-width: 768px) {
+    /* Fix Recipe Book Header */
+    .recipe-header {
+        position: relative; /* Instead of absolute */
+        text-align: center; /* Center align */
+        margin-top: 10px; /* Add spacing to prevent overlap */
+        z-index: 10;
+    }
+    
+    .recipe-header h1 {
+        font-size: 22px;
+        padding: 10px;
+        background: #074823;
+        color: white;
+        display: inline-block;
+        border-radius: 5px;
+    }
+    
+    /* Fix Recipe Cards Layout */
+    .recipe-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center cards */
+        padding-top: 10px;
+    }
+    
+    .recipe-item {
+        width: 90%; /* Ensure it doesn't shrink too much */
+        max-width: 350px;
+        margin-bottom: 15px;
+    }
+    
+    /* General Styles */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('../images/low-poly-grid-haikei.svg'); /* Same background as desktop */
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  
+    /* Header */
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #074823; /* Matching desktop theme */
+      padding: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  
+    .center-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    #logo {
+      width: 60px; /* Slightly smaller but still visible */
+      margin-right: 8px;
+    }
+  
+    h1 {
+      font-size: 25px; /* More readable on mobile */
+      margin: 0;
+      color: #fff;
+    }
+  
+    .login-button {
+      font-size: 14px;
+      background: #32CD32;
+      color: white;
+      padding: 8px 14px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+  
+    .login-button:hover {
+      background: #228B22;
+    }
+  
+    /* Container */
+    .container {
+      padding: 15px;
+      max-width: 90%;
+      margin: auto;
+    }
+  
+    /* Recipe List */
+    .recipe-list {
+      list-style: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+  
+    .recipe-item {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: center;
+      padding: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+  
+    .recipe-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+  
+    .recipe-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px 10px 0 0;
+    }
+  
+    .recipe-item h2 {
+      font-size: 20px;
+      padding: 10px 0;
+      color: #2E8B57;
+    }
+  
+    .recipe-item p {
+      font-size: 14px;
+      color: #555;
+      padding: 5px 10px;
+    }
+  
+    .recipe-item a {
+      display: inline-block;
+      background: #32CD32;
+      color: white;
+      text-decoration: none;
+      padding: 10px 12px;
+      border-radius: 5px;
+      font-size: 14px;
+      transition: background 0.3s ease;
+    }
+  
+    .recipe-item a:hover {
+      background: #228B22;
+    }
+  
+    /* Login Form */
+    .login-card {
+      width: 90%;
+      max-width: 400px;
+      background: #000;
+      color: white;
+      padding: 40px 20px;
+      border-radius: 10px;
+      text-align: center;
+      margin: 20px auto;
+    }
+  
+    .login-card h2 {
+      font-size: 28px;
+      color: #4dbf00;
+      margin-bottom: 15px;
+    }
+  
+    .login-card h3 {
+      font-size: 16px;
+      color: #4dbf00;
+      margin-bottom: 20px;
+    }
+  
+    .login-form {
+      display: grid;
+      gap: 16px;
+    }
+  
+    .login-form input,
+    .login-form button {
+      width: 100%;
+      height: 50px;
+      padding: 0 12px;
+      border-radius: 8px;
+    }
+  
+    .login-form input {
+      border: 2px solid #4dbf00;
+    }
+  
+    .login-form button {
+      background: #4dbf00;
+      color: black;
+      font-weight: 600;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .login-form button:hover {
+      background: #228B22;
+    }
+  
+    .submit {
+      width: 100%;
+      height: 50px;
+      background: #4dbf00;
+      color: black;
+      font-weight: 600;
+      border-radius: 5px;
+      margin-top: 5px;
+      border: none;
+    }
+  
+    h4 {
+      color: black;
+    }
+  }

@@ -1,0 +1,196 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    background-image: url('back.jpg'); /* Add a food-related background */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Login Form Container */
+  .login_form {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Logo Styling */
+  .logo {
+    width: 80px;
+    margin-bottom: 1.5rem;
+    animation: bounce 2s infinite;
+  }
+  
+  /* Heading Styling */
+  h3 {
+    margin-bottom: 1.5rem;
+    color: #2E8B57; /* Green theme color */
+    font-size: 1.5rem;
+  }
+  
+  /* Login Options Styling */
+  .login_option {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+  }
+  
+  .option a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+  }
+  
+  .option a:hover {
+    background: #f0f0f0;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .option img {
+    width: 20px;
+    margin-right: 0.5rem;
+  }
+  
+  /* Separator Styling */
+  .separator {
+    margin: 1.5rem 0;
+    color: #888;
+    position: relative;
+  }
+  
+  .separator span {
+    background: #fff;
+    padding: 0 10px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .separator::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #ddd;
+    z-index: 0;
+  }
+  
+  /* Input Box Styling */
+  .input_box {
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+  
+  .input_box label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .input_box input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input_box input:focus {
+    border-color: #2E8B57; /* Green theme color */
+    outline: none;
+  }
+  
+  .password_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .password_title a {
+    color: #2E8B57; /* Green theme color */
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .password_title a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Button Styling */
+  button {
+    width: 100%;
+    padding: 0.8rem;
+    background: #2E8B57; /* Green theme color */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background: #228B22; /* Darker green for hover */
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(46, 139, 87, 0.3); /* Green shadow */
+  }
+  
+  /* Sign Up Link Styling */
+  .sign_up {
+    margin-top: 1.5rem;
+    color: #333;
+  }
+  
+  .sign_up a {
+    color: #2E8B57; /* Green theme color */
+    text-decoration: none;
+  }
+  
+  .sign_up a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
