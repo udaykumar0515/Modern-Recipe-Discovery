@@ -11,9 +11,11 @@ A beautiful, responsive web application for discovering and exploring delicious 
 - **⚡ Fast Loading**: Lightweight and optimized for performance
 - **🌐 Cross-Browser Compatible**: Works on all modern browsers
 
-## 🚀 Live Demo
+## 🚀 Quick Start
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-green?style=for-the-badge)](https://yourusername.github.io/RecipeBook)
+Simply open `pages/loginpage.html` in your web browser to get started!
+
+> **Note**: This is a static website that runs entirely in the browser. No server setup required!
 
 ## 📸 Screenshots
 
@@ -86,9 +88,15 @@ RecipeBook/
    cd RecipeBook
    ```
 
-2. **Open in your browser**
-   - Simply open `pages/loginpage.html` in your web browser
-   - Or use a local server for better development experience:
+2. **Set up your API key**
+   ```bash
+   cp js/config.example.js js/config.js
+   # Edit js/config.js and add your Spoonacular API key
+   ```
+
+3. **Open in your browser**
+   - **Option 1**: Simply open `pages/loginpage.html` directly in your web browser
+   - **Option 2**: Use a local server for better development experience:
    ```bash
    # Using Python
    python -m http.server 8000
@@ -100,9 +108,9 @@ RecipeBook/
    php -S localhost:8000
    ```
 
-3. **Access the application**
-   - Navigate to `http://localhost:8000/pages/loginpage.html`
-   - Or open the files directly in your browser
+4. **Access the application**
+   - Direct: Open `pages/loginpage.html` in your browser
+   - Local server: Navigate to `http://localhost:8000/pages/loginpage.html`
 
 ## 🎯 Usage
 
@@ -162,6 +170,24 @@ The application is fully responsive and optimized for:
 - Secure API key handling
 - XSS protection through proper HTML escaping
 - CSRF protection considerations
+
+## 🌐 Deployment Options
+
+While this is a static website that works locally, you can also deploy it online:
+
+### GitHub Pages (Free)
+1. Push your code to GitHub
+2. Go to repository Settings → Pages
+3. Select "Deploy from a branch" → main branch
+4. Your site will be available at `https://yourusername.github.io/RecipeBook`
+
+### Other Hosting Options
+- **Netlify**: Drag and drop your project folder
+- **Vercel**: Connect your GitHub repository
+- **Firebase Hosting**: Use Firebase CLI
+- **Any static hosting service**
+
+> **Important**: Remember to set up your API key in the deployed version!
 
 ## 🚀 Future Enhancements
 
