@@ -216,6 +216,13 @@ We welcome contributions! Please follow these steps:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## 👥 Team
+
+- **H. Uday Kumar** - [GitHub](https://github.com/udaykumar0515)
+- **S. Muskan** - [GitHub](https://github.com/muski630346)
+- **D. Vijay Baskar** 
+- **M. Abhinai**
+
 ## 👨‍💻 Author
 
 **Your Name**

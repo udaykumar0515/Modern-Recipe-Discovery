@@ -97,7 +97,8 @@ secrets/
 js/config.js
 
 # Documentation files (optional - uncomment if you want to ignore them)
-# *.pdf
-# *.doc
-# *.docx
+*.pdf
+*.doc
+*.docx
+Poster.docx
 PROJECT_FULL_DOC.md
