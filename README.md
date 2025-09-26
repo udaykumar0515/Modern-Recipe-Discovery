@@ -223,13 +223,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **D. Vijay Baskar** 
 - **M. Abhinai**
 
-## 👨‍💻 Author
-
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
-
 ## 🙏 Acknowledgments
 
 - [Spoonacular API](https://spoonacular.com/food-api) for providing recipe data
@@ -237,15 +230,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Unsplash](https://unsplash.com/) for inspiration images
 - The open-source community for various tools and resources
 
-## 📊 Project Stats
-
-![GitHub stars](https://img.shields.io/github/stars/yourusername/RecipeBook?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/RecipeBook?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/RecipeBook)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/RecipeBook)
-
----
-
-⭐ **Star this repository if you found it helpful!**
 
 🍳 **Happy Cooking!**
