@@ -230,5 +230,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Unsplash](https://unsplash.com/) for inspiration images
 - The open-source community for various tools and resources
 
-
+---
 🍳 **Happy Cooking!**
