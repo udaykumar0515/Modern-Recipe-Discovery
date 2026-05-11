@@ -154,19 +154,5 @@ The application is fully responsive and optimized for:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 Team
-
-- **H. Uday Kumar** - [GitHub](https://github.com/udaykumar0515)
-- **S. Muskan** - [GitHub](https://github.com/muski630346)
-- **D. Vijay Baskar** 
-- **M. Abhinai**
-
-## 🙏 Acknowledgments
-
-- [Spoonacular API](https://spoonacular.com/food-api) for providing recipe data
-- [Google Fonts](https://fonts.google.com/) for typography
-- [Unsplash](https://unsplash.com/) for inspiration images
-- The open-source community for various tools and resources
-
 ---
 🍳 **Happy Cooking!**
