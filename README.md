@@ -17,21 +17,7 @@ Simply open `pages/loginpage.html` in your web browser to get started!
 
 > **Note**: This is a static website that runs entirely in the browser. No server setup required!
 
-## 📸 Screenshots
-
-### Login Page
-![Login Page](screenshots/login-page.png)
-*Clean and modern login interface with Google/Apple sign-in options*
-
-### Recipe Discovery Page
-![Recipe Page](screenshots/recipe-page.png)
-*Main recipe display page showing random recipes with images and ingredients*
-
-### Mobile Responsive Design
-![Mobile View](screenshots/mobile-view.png)
-*Fully responsive design optimized for mobile devices*
-
-## 📁 Project Structure
+##  Project Structure
 
 ```
 RecipeBook/
@@ -163,54 +149,6 @@ The application is fully responsive and optimized for:
 - **Typography**: Professional font hierarchy using Montserrat
 - **Interactive Elements**: Hover effects and smooth transitions
 - **Accessibility**: Proper contrast ratios and semantic HTML
-
-## 🔒 Security Features
-
-- Form validation for user inputs
-- Secure API key handling
-- XSS protection through proper HTML escaping
-- CSRF protection considerations
-
-## 🌐 Deployment Options
-
-While this is a static website that works locally, you can also deploy it online:
-
-### GitHub Pages (Free)
-1. Push your code to GitHub
-2. Go to repository Settings → Pages
-3. Select "Deploy from a branch" → main branch
-4. Your site will be available at `https://yourusername.github.io/RecipeBook`
-
-### Other Hosting Options
-- **Netlify**: Drag and drop your project folder
-- **Vercel**: Connect your GitHub repository
-- **Firebase Hosting**: Use Firebase CLI
-- **Any static hosting service**
-
-> **Important**: Remember to set up your API key in the deployed version!
-
-## 🚀 Future Enhancements
-
-- [ ] User registration and profile management
-- [ ] Recipe favorites and collections
-- [ ] Search and filter functionality
-- [ ] Recipe rating and reviews
-- [ ] Social sharing features
-- [ ] Offline support with service workers
-- [ ] Progressive Web App (PWA) capabilities
-- [ ] Dark mode toggle
-- [ ] Recipe categories and tags
-- [ ] Nutritional information display
-
-## 🤝 Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 📝 License
 
